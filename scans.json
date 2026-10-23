@@ -1,0 +1,34 @@
+{
+  "acq_time": {
+    "Description": "Acquisition date and time (UTC) from ZEN metadata; n/a if no metadata survives"
+  },
+  "stain": {
+    "Description": "Channel imaged",
+    "Levels": {
+      "Abeta42": "anti-Abeta42 / Alexa Fluor 488 (green)",
+      "DAPI": "DAPI nuclear stain (blue)",
+      "autofluorescence": "red-channel autofluorescence control"
+    }
+  },
+  "magnification": {
+    "Description": "Total magnification incl. 10x eyepiece (12.5X overview, 100X, 200X), inferred from image content"
+  },
+  "magnification_confidence": {
+    "Description": "high/low: from DAPI nucleus scale; rule: Abeta42 focal stack without a matching DAPI image, assigned 200X"
+  },
+  "source_format": {
+    "Description": "czi: original raw data; jpg: original CZI missing or corrupted, 8-bit JPG export used"
+  },
+  "region": {
+    "Description": "Imaged region, parsed from the original subfolder name; n/a if not recorded"
+  },
+  "region_abbr": {
+    "Description": "Region abbreviation as used in Wright et al. (2025)"
+  },
+  "original_subfolder": {
+    "Description": "Original subfolder name within the mouse folder"
+  },
+  "original_file": {
+    "Description": "Path of the source file in the original repository"
+  }
+}

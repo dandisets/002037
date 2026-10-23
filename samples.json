@@ -1,0 +1,8 @@
+{
+  "sample_type": {
+    "Description": "Type of sample"
+  },
+  "sample_id": {
+    "Description": "Whole brain, sectioned coronally at 30 um; individual sections are not tracked"
+  }
+}

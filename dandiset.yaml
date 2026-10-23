@@ -8,13 +8,37 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_016124
+    name: Brain Imaging Data Structure (BIDS)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 375303098
+  numberOfFiles: 422
+  numberOfSamples: 1
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: 'Wehr, Michael (2026) Ketamine Does Not Rescue Plaque Load Gap Detection
   in the 5XFAD Mouse Model of Alzheimer’s Disease: Histology data (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002037/draft'
 contributor:
+- name: Wright, Alexa L
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: aweible@uoregon.edu
+  identifier: 0000-0001-8387-1124
+  name: Weible, Aldis P
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- name: Estes, Olivia B
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 - affiliation: []
   email: wehr@uoregon.edu
   includeInCitation: true
@@ -34,20 +58,6 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- email: aweible@uoregon.edu
-  identifier: 0000-0001-8387-1124
-  name: Weible, Aldis P
-  roleName:
-  - dcite:Author
-  schemaKey: Person
-- name: Wright, Alexa L
-  roleName:
-  - dcite:Author
-  schemaKey: Person
-- name: Estes, Olivia B
-  roleName:
-  - dcite:Author
-  schemaKey: Person
 dateCreated: '2026-10-23T22:21:21.327097+00:00'
 description: "Raw widefield fluorescence images of Aβ42 immunolabeling and DAPI in
   brain sections from hemizygous 5XFAD mice, supporting Wright AL, Weible AP, Estes

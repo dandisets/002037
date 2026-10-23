@@ -1,0 +1,36 @@
+{
+  "species": {
+    "Description": "Binomial species name"
+  },
+  "strain": {
+    "Description": "Mouse line and background"
+  },
+  "genotype": {
+    "Description": "5XFAD transgene status"
+  },
+  "sex": {
+    "Description": "Sex",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "age": {
+    "Description": "Postnatal age at perfusion (within 24 h of the final behavioral session: P134 acute, P156 chronic)",
+    "Units": "days"
+  },
+  "protocol": {
+    "Description": "Ketamine dosing protocol",
+    "Levels": {
+      "Acute": "single injection on P119 after baseline testing; gap detection tested P120-P134",
+      "Chronic": "daily injections P45-P156, within 2 h after each session; gap detection tested P45, P60, P90, P120, P150"
+    }
+  },
+  "treatment": {
+    "Description": "Injected substance",
+    "Levels": {
+      "ketamine": "ketamine HCl, 10 mg/kg i.p.",
+      "saline": "saline vehicle, i.p."
+    }
+  }
+}

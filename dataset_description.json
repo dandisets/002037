@@ -1,0 +1,35 @@
+{
+  "Name": "Ketamine and amyloid pathology in 5XFAD mice: raw histology images",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Alexa L. Wright",
+    "Aldis P. Weible",
+    "Olivia B. Estes",
+    "Michael Wehr"
+  ],
+  "Funding": [
+    "NIA R01 AG077681",
+    "NINDS R01 NS127305"
+  ],
+  "EthicsApprovals": [
+    "University of Oregon Institutional Animal Care and Use Committee"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.3389/fnagi.2025.1505908",
+    "PMCID: PMC11830726"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "convert_to_bids.py",
+      "Description": "CZI/JPG to OME-TIFF conversion with content-based magnification inference"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "Description": "Original Zeiss ZEN 3.1 .czi files, .jpg exports and .jpg_metadata.xml files"
+    }
+  ],
+  "HowToAcknowledge": "Please cite Wright AL, Weible AP, Estes OB, Wehr M (2025) Front Aging Neurosci 17:1505908."
+}

@@ -1,0 +1,27 @@
+participant_id	species	strain	genotype	sex	age	protocol	treatment
+sub-1400	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	157	Chronic	ketamine
+sub-1402	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	157	Chronic	saline
+sub-1403	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	157	Chronic	ketamine
+sub-1469	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	157	Chronic	ketamine
+sub-1471	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	157	Chronic	saline
+sub-1481	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	157	Chronic	ketamine
+sub-1484	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	157	Chronic	saline
+sub-1526	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	157	Chronic	saline
+sub-1527	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	157	Chronic	saline
+sub-1528	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	157	Chronic	ketamine
+sub-1530	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	157	Chronic	saline
+sub-1531	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	157	Chronic	ketamine
+sub-1574	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	157	Chronic	saline
+sub-1577	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	157	Chronic	ketamine
+sub-1975	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	135	Acute	ketamine
+sub-1976	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	135	Acute	saline
+sub-1983	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	135	Acute	ketamine
+sub-2002	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	135	Acute	saline
+sub-2007	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	135	Acute	ketamine
+sub-2008	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	135	Acute	ketamine
+sub-2013	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	135	Acute	saline
+sub-2109	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	135	Acute	saline
+sub-2111	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	135	Acute	saline
+sub-2112	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	F	135	Acute	ketamine
+sub-2117	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	135	Acute	saline
+sub-2118	Mus musculus	5XFAD (JAX 006554), B6SJLF1/J hybrid background (JAX 100012)	5XFAD+/- (hemizygous)	M	135	Acute	ketamine
