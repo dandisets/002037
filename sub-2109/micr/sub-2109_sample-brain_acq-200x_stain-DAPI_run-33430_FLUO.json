@@ -1,0 +1,41 @@
+{
+  "Manufacturer": "Carl Zeiss",
+  "ManufacturersModelName": "Axio Imager A2",
+  "DeviceSerialNumber": "n/a",
+  "SoftwareVersions": "ZEN 3.1 (blue edition)",
+  "BodyPart": "BRAIN",
+  "SampleEnvironment": "ex vivo",
+  "SampleEmbedding": "DAPI Fluoromount-G (SouthernBiotech 0100-20)",
+  "SampleFixation": "4% paraformaldehyde (transcardial perfusion, 24 h post-fix)",
+  "SliceThickness": 30,
+  "SliceThicknessUnits": "um",
+  "InstitutionName": "University of Oregon",
+  "InstitutionalDepartmentName": "Institute of Neuroscience",
+  "InstitutionAddress": "1254 University of Oregon, Eugene, OR 97403, USA",
+  "StationName": "Wehr lab Axio Imager",
+  "ImageAcquisitionProtocol": "Widefield epifluorescence; AxioCam MRm3 camera (1.0x adapter); X-Cite 120Q light source",
+  "SampleStaining": [
+    "DAPI"
+  ],
+  "SamplePrimaryAntibody": [
+    "n/a"
+  ],
+  "SampleSecondaryAntibody": [
+    "n/a"
+  ],
+  "PixelSize": [
+    0.3225,
+    0.3225
+  ],
+  "PixelSizeUnits": "um",
+  "Magnification": 20.0,
+  "TotalMagnificationWithEyepiece": 200.0,
+  "MagnificationSource": "inferred from image content (DAPI nucleus scale); the objective recorded by ZEN is unreliable",
+  "MagnificationConfidence": "high",
+  "BodyPartDetails": "n/a",
+  "BitDepth": 12,
+  "SourceFormat": "Original ZEN .czi (12-bit raw data)",
+  "OriginalFile": "2109 Acute female saline/Snap-33430.czi",
+  "ExposureTime": 14.8,
+  "ExposureTimeUnits": "ms"
+}

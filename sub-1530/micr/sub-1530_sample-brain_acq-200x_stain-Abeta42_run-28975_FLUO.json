@@ -1,0 +1,41 @@
+{
+  "Manufacturer": "Carl Zeiss",
+  "ManufacturersModelName": "Axio Imager A2",
+  "DeviceSerialNumber": "n/a",
+  "SoftwareVersions": "ZEN 3.1 (blue edition)",
+  "BodyPart": "BRAIN",
+  "SampleEnvironment": "ex vivo",
+  "SampleEmbedding": "DAPI Fluoromount-G (SouthernBiotech 0100-20)",
+  "SampleFixation": "4% paraformaldehyde (transcardial perfusion, 24 h post-fix)",
+  "SliceThickness": 30,
+  "SliceThicknessUnits": "um",
+  "InstitutionName": "University of Oregon",
+  "InstitutionalDepartmentName": "Institute of Neuroscience",
+  "InstitutionAddress": "1254 University of Oregon, Eugene, OR 97403, USA",
+  "StationName": "Wehr lab Axio Imager",
+  "ImageAcquisitionProtocol": "Widefield epifluorescence; AxioCam MRm3 camera (1.0x adapter); X-Cite 120Q light source",
+  "SampleStaining": [
+    "Abeta42 immunofluorescence (Alexa Fluor 488)"
+  ],
+  "SamplePrimaryAntibody": [
+    "Rabbit monoclonal anti-Abeta42, Invitrogen 700254, 1:1000"
+  ],
+  "SampleSecondaryAntibody": [
+    "Goat anti-rabbit Alexa Fluor 488, ThermoFisher A-11034, 1:1000"
+  ],
+  "PixelSize": [
+    0.3225,
+    0.3225
+  ],
+  "PixelSizeUnits": "um",
+  "Magnification": 20.0,
+  "TotalMagnificationWithEyepiece": 200.0,
+  "MagnificationSource": "inferred from image content (Abeta42 focal stack without matching DAPI: 200X by rule); the objective recorded by ZEN is unreliable",
+  "MagnificationConfidence": "rule",
+  "BodyPartDetails": "n/a",
+  "BitDepth": 12,
+  "SourceFormat": "Original ZEN .czi (12-bit raw data)",
+  "OriginalFile": "1530 Chronic male saline/Snap-28975.czi",
+  "ExposureTime": 158.0,
+  "ExposureTimeUnits": "ms"
+}
