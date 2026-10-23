@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -20,6 +21,32 @@ contributor:
   name: Wehr, Michael
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- awardNumber: R01 AG077681
+  identifier: https://ror.org/049v75w11
+  name: National Institute on Aging
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01NS127305
+  identifier: https://ror.org/01s5ya894
+  name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- email: aweible@uoregon.edu
+  identifier: 0000-0001-8387-1124
+  name: Weible, Aldis P
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- name: Wright, Alexa L
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- name: Estes, Olivia B
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2026-10-23T22:21:21.327097+00:00'
 description: "Raw widefield fluorescence images of Aβ42 immunolabeling and DAPI in
@@ -46,16 +73,29 @@ description: "Raw widefield fluorescence images of Aβ42 immunolabeling and DAPI
   age are given in participants.tsv; acquisition times and original file names in
   each subject's scans.tsv. See the README for details, including a note on mouse
   1531, whose metadata were re-linked by acquisition timestamp."
+ethicsApproval: []
 id: DANDI:002037/draft
 identifier: DANDI:002037
+keywords:
+- Alzheimer’s disease, 5XFAD, amyloid beta, Aβ42, ketamine, plaque load, auditory
+  cortex, pontine reticular nucleus, immunohistochemistry, fluorescence microscopy
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002037/versions/draft/assets/
 name: 'Ketamine Does Not Rescue Plaque Load Gap Detection in the 5XFAD Mouse Model
   of Alzheimer’s Disease: Histology data'
+relatedResource:
+- identifier: doi:10.3389/fnagi.2025.1505908
+  name: Amyloid Pathology in the Central Auditory Pathway of 5XFAD Mice Appears First
+    in Auditory Cortex
+  relation: dcite:IsDescribedBy
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.3389/fnagi.2025.1505908
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/002037/draft
 version: draft
+wasGeneratedBy: []
