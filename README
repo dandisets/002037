@@ -15,7 +15,8 @@ reticular nucleus (PRNc); the imaged region is not recorded per image.
 
 FILE FORMAT. Images are single-channel OME-TIFF holding the 12-bit raw data (uint16) from the original .czi
 files. The OME metadata declares 12 significant bits, so Bio-Formats-based viewers (Fiji/ImageJ,
-QuPath, napari) open them at 0-4095; in other viewers set the display range to 0-4095. Any image converted from ZEN's 8-bit .jpg export instead (because
+QuPath, napari) open them at 0-4095; in other viewers set the display range to 0-4095. 
+Any image converted from ZEN's 8-bit .jpg export instead (because
 the .czi was missing or corrupted) is marked SourceFormat / source_format = jpg.
 
 MAGNIFICATION. The microscope's objectives are changed by hand, and the objective recorded by ZEN is not
@@ -25,12 +26,9 @@ reliable. Magnification was therefore inferred from image content, and pixel siz
   acq-200x   20x objective (200X total), 0.3225 um/pixel
 DAPI images were classified from nucleus scale. Abeta42 images take the class of the DAPI image of the same
 field (matched by image similarity); Abeta42 focal stacks without a matching DAPI image are 200X, following the
-imaging protocol, and single unmatched Abeta42 images take the class of the nearest DAPI image. The decision
-rules were checked by visual review of 100 randomly sampled calls from 24 mice (the initial rules were 91%
-correct) and of every call changed while refining them (152 reviewed calls in total); the final rules agree
-with all reviewed calls, and one image was set manually. Because the rules were refined on these reviews, this
-is not an independent accuracy estimate. Each image's sidecar gives MagnificationSource and
-MagnificationConfidence; please confirm the scale visually before making quantitative measurements.
+imaging protocol, and single unmatched Abeta42 images take the class of the nearest DAPI image. Each image's 
+sidecar gives MagnificationSource and MagnificationConfidence; please confirm the scale visually before making 
+quantitative measurements.
 
 MOUSE 1531. ZEN's .jpg/.jpg_metadata.xml export for this mouse was numbered out of step with the .czi files.
 Each image was therefore linked to its metadata by exact acquisition timestamp (confirmed by pixel matching);
